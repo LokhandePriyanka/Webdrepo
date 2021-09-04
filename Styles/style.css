@@ -60,9 +60,19 @@ h2
 .abtusimgs
 {
 	height:160px; 
-	width:500px; 
+	width:100%; 
 	margin-top:20px; 
 	margin-bottom:20px; 
 	border-radius:20px;
 }
-		
+.categoryhead
+{
+	 padding-top:60px;
+}
+.shopfooter
+{
+	text-align:center;
+	margin-top:30px; 
+	margin-bottom:30px; 
+	font-size:25px;
+}		

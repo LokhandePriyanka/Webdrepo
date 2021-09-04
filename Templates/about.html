@@ -1,6 +1,8 @@
+<!Doctype html>
 <html>
 	<head>
 		<title>AboutUS</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="navbarcss.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -32,7 +34,14 @@
     				  <div class="collapse navbar-collapse" id="myNavbar">
       				  	<ul class="nav navbar-nav">
         					<li><a href="../index.html">Home</a></li>
-       						<li><a href="shop.html">Shop Now</a></li>
+       						<li class="dropdown">
+        						<a class="dropdown-toggle" data-toggle="dropdown" href="#">Shop<span class="caret"></span></a>
+        							<ul class="dropdown-menu">
+      									<li><a href="men.html">Men</a></li>
+          								<li><a href="women.html">Women</a></li>
+         								<li><a href="kid.html">Kids</a></li>
+        							</ul>
+    						</li>
         					<li><a href="contact.html">Contact us</a></li>
 						<li><a href="about.html">About us</a></li>
       					</ul>

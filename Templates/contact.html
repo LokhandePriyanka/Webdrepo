@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<title>Contact US</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>		
@@ -27,7 +28,14 @@
     				  <div class="collapse navbar-collapse" id="myNavbar">
       				  	<ul class="nav navbar-nav">
         					<li><a href="../index.html">Home</a></li>
-       						<li><a href="shop.html">Shop Now</a></li>
+       						<li class="dropdown">
+        						<a class="dropdown-toggle" data-toggle="dropdown" href="#">Shop<span class="caret"></span></a>
+        							<ul class="dropdown-menu">
+      									<li><a href="men.html">Men</a></li>
+          								<li><a href="women.html">Women</a></li>
+         								<li><a href="kid.html">Kids</a></li>
+        							</ul>
+    						</li>
         					<li><a href="contact.html">Contact us</a></li>
 						<li><a href="about.html">About us</a></li>
       					</ul>
@@ -38,7 +46,7 @@
 		<h1 style="text-align:center; font-size:25;color:black;background-color:white;padding-top:60px;">CONTACT US</h1>
 		<p style="text-align:center; font-size:30px">Email us with any questions or inquiries. We would be happy to answer your questions. </p>
 	</div>
-	
+	<div class="container-fluid">
 		<div class="row">
 			<div class="col-sm-4">
 			</div>
@@ -52,24 +60,24 @@
 			</div>
 			<div class="col-sm-4">
 			</div>
+		</div>	
+		<div class="row" style="background-color:black;">
+			<div class="col-sm-4 lasttext">	
+				<h2 class="p1">ON TIME DELIVERY</h2>
+				<p class="p2">We deliver our watches on time</p>
+			</div>
+			<div class="col-sm-4 lasttext">	
+				<h2 class="p1">TRANSPARENCY</h2>
+				<p class="p2">Openness with us</p>
+			</div>
+			<div class="col-sm-4 lasttext">	
+				<h2 class="p1">SELF IMPROVEMENT</h2>
+				<p class="p2">We respect your suggestions</p>
+			</div>
 		</div>
-		
-		<div class="row" style="background-color:black; color:white;">
-			<div class="col-sm-4 lasttext">	
-				<h2>ON TIME DELIVERY</h2>
-				<p>We deliver our watches on time</p>
-			</div>
-			<div class="col-sm-4 lasttext">	
-				<h2>TRANSPARENCY</h2>
-				<p>Openness with us</p>
-			</div>
-			<div class="col-sm-4 lasttext">	
-				<h2>SELF IMPROVEMENT</h2>
-				<p>We respect your suggestions</p>
-			</div>
-		</div>
+	</div>
 		<div class="container-fluid" style="background-color:tomato;">
-			<footer><h4 style="text-align:center; color:black;padding-top:5px;">Copyright 2021, All Rights Reserved</h4></footer>
+			<footer><h4 style="text-align:center; color:black;padding-top:5px;">RutuRiya watches &copy; 2021, All Rights Reserved</h4></footer>
 		</div>
 </body>
 </html>

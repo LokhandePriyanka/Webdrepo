@@ -1,10 +1,11 @@
+<!Doctype html>
 <html>
 	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-		<link rel="stylesheet" href="../Styles/style.css">	
+		<link rel="stylesheet" href="./Styles/style.css">	
 		<style type="text/css">
 			
 			.navsize
@@ -14,25 +15,31 @@
 			.topbrandsimg
 			{
 				margin-bottom:70px;
-			}
-			
+			}			
 		</style>
 	</head>
 	<body style="font-family:Verdana;font-size:25px;">
 		<nav class="navbar navbar-inverse  navbar-fixed-top navsize">
-  			<div class="container-fluid">
+  			<div class="container-fluid">	
   				  <div class="navbar-header">
   					  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
   						  <span class="icon-bar"></span>
  						  <span class="icon-bar"></span>
        						  <span class="icon-bar"></span>                      
       					  </button>
-      					  <a class="navbar-brand" href=#>RutuRiya Watches</a>
+      					  <a class="navbar-brand" href="#">RutuRiya Watches</a>
    				  </div>
     				  <div class="collapse navbar-collapse" id="myNavbar">
       				  	<ul class="nav navbar-nav">
-        					<li><a href=#>Home</a></li>
-       						<li><a href="./Templates/shop.html">Shop Now</a></li>
+        					<li><a href="#">Home</a></li>
+       						<li class="dropdown">
+        						<a class="dropdown-toggle" data-toggle="dropdown" href="#">Shop<span class="caret"></span></a>
+        							<ul class="dropdown-menu">
+      									<li><a href="./Templates/men.html">Men</a></li>
+          								<li><a href="./Templates/women.html">Women</a></li>
+         								<li><a href="./Templates/kid.html">Kids</a></li>
+        							</ul>
+    						</li>
         					<li><a href="./Templates/contact.html">Contact us</a></li>
 						<li><a href="./Templates/about.html">About us</a></li>
       					</ul>
@@ -42,64 +49,68 @@
 		<div class="container-fluid">
 			<div class="row" style="background-color:#e1eedd">
 				<div class="col-sm-6" style="color:black; font-size:50px; text-align:center;margin-top:100px;">
-					<p style="padding-top:20px;">RutuRiya<br> Watches</p>
+					<p style="padding-top:50px;">RutuRiya<br> Watches</p>
 					<h3 style="font-size:35px;"><br>We always come up <br>with such amazing watches</h3><br>
-					<a href="./Templates/shop.html"><button type="submit" class="btn btn-success" style="height:50px;font-size:25px;padding-top:10px;">EXPLORE NOW</button></a>
+					<a href="./Templates/shop.html"><button type="submit" class="btn btn-success" style="height:50px;font-size:25px;padding-top:10px;margin-bottom:50px;">EXPLORE NOW</button></a>
 				</div>
-				<div class="col-lg-6">
-					<img src="./Assets/Images/mainpagewatch.png" height=460 width=550 style="margin-top:100px;">
+				<div class="col-sm-6">
+					<img src="./Assets/Images/mainpagewatch.png" height=460 width=100% style="margin-top:100px;">
 				</div>
+			</div>
 		</div>
 		<div class="col-lg-12" style="padding-top:50px;">
-			<h1 style="text-align:center; margin-top:20px;">TOP BRANDS</h1>
+			<h1 style="text-align:center; margin-top:20px;">TOP BRANDS</h1><br>
 		</div>
+		<div class="container-fluid">
 		<div class="row" style="background-color:#fefbe9;">
 			<div class="col-sm-2">
 				<div class="card" id="txt1">
-					<img class="card-img-top topbrandsimg" src="./Assets/Images/cartier.jpg" width=170; height=100;>
-    						<div class="card-body">
-						</div>
+					<img class="card-img-top topbrandsimg" src="./Assets/Images/cartier.jpg" width=170 height=100>
+    					<div class="card-body">
+					</div>
   				</div>
 		        </div>
 			<div class="col-sm-2">
 				<div class="card" id="txt1">
-					<img class="card-img-top topbrandsimg" src="./Assets/Images/casio.jpg" width=170 height=100 ">
+					<img class="card-img-top topbrandsimg" src="./Assets/Images/casio.jpg" width=170 height=100 >
     						<div class="card-body">
 						</div>
   				</div>
 		        </div>	
 			<div class="col-sm-2">
 				<div class="card" id="txt1">
-					<img class="card-img-top topbrandsimg" src="./Assets/Images/omega.png" width=170 height=100">
+					<img class="card-img-top topbrandsimg" src="./Assets/Images/omega.png" width=170 height=100>
     						<div class="card-body">
 						</div>
   				</div>
 		        </div>	
 			<div class="col-sm-2">
 				<div class="card" id="txt1">
-					<img class="card-img-top topbrandsimg" src="./Assets/Images/patek.jpg" width=170 height=100 ">
+					<img class="card-img-top topbrandsimg" src="./Assets/Images/patek.jpg" width=170 height=100>
     						<div class="card-body">
 						</div>
   				</div>
 		        </div>	
 			<div class="col-sm-2">
 				<div class="card" id="txt1">
-					<img class="card-img-top topbrandsimg" src="./Assets/Images/rolex.jpg" width=170 height=100 ">
+					<img class="card-img-top topbrandsimg" src="./Assets/Images/rolex.jpg" width=170 height=100>
     						<div class="card-body">
 						</div>
   				</div>
 		        </div>	
 			<div class="col-sm-2">
 				<div class="card" id="txt1">
-					<img class="card-img-top topbrandsimg" src="./Assets/Images/seiko.jpg" width=170 height=100">
+					<img class="card-img-top topbrandsimg" src="./Assets/Images/seiko.jpg" width=170 height=100>
     						<div class="card-body">
 						</div>
   				</div>
 		        </div>	
+		</div>
 		</div>
 		<div class="col-lg-12">
 			<h1 style="text-align:center; border-top:2px solid black; padding-top:20px;">FEATURED</h1>
 		</div>
+		<div class="container-fluid">
 		<div class="row">
 			<div class="col-sm-12">
 				<div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -154,12 +165,12 @@
 	</div>
 	<div class="row">
 		<div class="col-sm-12">
-			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<div id="myCarousel2" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel2" data-slide-to="1"></li>
+      <li data-target="#myCarousel2" data-slide-to="2"></li>
     </ol>
 
     <!-- Wrapper for slides -->
@@ -190,11 +201,11 @@
     </div>
 
     <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <a class="left carousel-control" href="#myCarousel2" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left"></span>
       <span class="sr-only">Previous</span>
     </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <a class="right carousel-control" href="#myCarousel2" data-slide="next">
       <span class="glyphicon glyphicon-chevron-right"></span>
       <span class="sr-only">Next</span>
     </a>
@@ -205,6 +216,9 @@
 
 
 	</div>
+</div>
+<hr>
+
 	<div class="container-fluid" style="background-color:black;">
 		<div class="row" style="text-align:center;margin-top:30px; margin-bottom:30px; font-size:25px;">
 			<div class="col-sm-4">
@@ -219,8 +233,7 @@
 		</div>
 	</div>
 	<div class="container-fluid" style="background-color:tomato;">
-		<footer><h4 style="text-align:center; color:black;">Copyright 2021, All Rights Reserved</h4></footer>
+		<footer><h4 style="text-align:center; color:black;">RutuRiya watches &copy; 2021, All Rights Reserved</h4></footer>
 	</div>
-
 	</body>
 </html>
